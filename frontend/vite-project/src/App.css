@@ -1,0 +1,14 @@
+/* frontend/src/App.css */
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.card {
+  min-width: 200px;
+  height: 150px;
+  background-color: lightgrey;
+  margin: 10px;
+  scroll-snap-align: start;
+}
